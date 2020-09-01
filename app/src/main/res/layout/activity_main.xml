@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundPlain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:id="@+id/topPanel"
+        android:background="@color/topBackground">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/backBtn"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/topadjust"
+
+
+            android:src="@drawable/ic_vector"
+            android:background="@color/topBackground"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/loginTxt"
+            android:textSize="@dimen/login_font"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_alignLeft="@+id/backBtn"
+            android:layout_marginStart="77dp"
+            android:layout_centerVertical="true"
+
+
+
+            />
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/topPanel"
+        android:id="@+id/emailTxt"
+        android:layout_marginBottom="-110dp"
+        android:hint="@string/email_hint"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/emailTxt"
+        android:id="@+id/passwordTxt"
+        android:layout_marginBottom="-100dp"
+        android:hint="@string/password_hint"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/passwordTxt"
+        android:id="@+id/usephnBtn"
+        android:layout_marginBottom="-50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/usePhn_Btn"
+        android:textColor="@color/usephnclr"
+        android:background="@color/backgroundPlain"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginBtn"
+        android:layout_alignBottom="@+id/usephnBtn"
+        android:layout_marginBottom="-100dp"
+        android:layout_marginStart="@dimen/topadjust"
+        android:layout_marginEnd="@dimen/topadjust"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textSize="@dimen/login_font"
+        android:background="@color/loginBtnBack"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frgtpass"
+        android:layout_alignBottom="@+id/loginBtn"
+        android:layout_marginBottom="-50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/frgtPass"
+        android:textAllCaps="false"
+        android:background="@color/backgroundPlain"
+        />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/facebooklogin"
+        android:layout_alignBottom="@+id/frgtpass"
+        android:layout_marginBottom="-100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/facebook_vector"
+
+        android:tooltipText="@string/facebooklogin"
+        android:background="@color/fbClr"
+
+        />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/googleLogin"
+        android:layout_alignBottom="@+id/facebooklogin"
+        android:layout_marginBottom="-100dp"
+        android:src="@drawable/goole_vector"
+        android:background="@color/backgroundPlain"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+

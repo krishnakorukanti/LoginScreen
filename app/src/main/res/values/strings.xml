@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LoginScreen</string>
+    <string name="login">Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password (minimum 6 characters )</string>
+    <string name="usePhn_Btn">use phone number</string>
+    <string name="facebooklogin">Continue With Facebook</string>
+    <string name="frgtPass">Forgot Password?</string>
+</resources>

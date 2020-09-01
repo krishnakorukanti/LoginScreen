@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="topBackground">#0583EA</color>
+    <color name="loginBtnBack">#858992</color>
+    <color name="backgroundPlain">#FFFFFF</color>
+    <color name="usephnclr">#0583EA</color>
+    <color name="fbClr">#3B5998</color>
+</resources>
